@@ -1,0 +1,27 @@
+{
+  "name": "ifcsample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=development",
+    "start": "webpack serve --mode=development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/three": "^0.152.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "dependencies": {
+    "ifc": "^1.1.1",
+    "three": "^0.149.0",
+    "web-ifc": "^0.0.40",
+    "web-ifc-three": "^0.0.125"
+  }
+}
